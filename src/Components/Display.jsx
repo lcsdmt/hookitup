@@ -16,8 +16,8 @@ const Display = (props) => {
 
   return (
     <section className="py-1">
-      <h1 className="seeThrough jumbotron bg bg-success text-center text-uppercase font-weight-bold shadow-lg" style={{background:"rgba(0, 0, 255,0.3)"}}><ins>JSON fake User Catalog</ins></h1>
-      <div className="seeThrough bg-dark">
+      <h1 className="jumbotron text-center text-uppercase font-weight-bold shadow-lg" style={{background:"rgba(0, 0, 255,0.3)", color:"black", textShadow: "2px 2px 4px white"}}><ins>JSON fake User Catalog</ins></h1>
+      <div style={{background:"rgba(0, 0, 255,0.3)"}}>
         <div className="card-body shadow-lg">
           <ul className="list-group">
             {users.map(user => (
