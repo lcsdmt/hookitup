@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
-const Info = (props) => {
+const Info = () => {
+    let { id } = useParams()
 
     const [users, setUser] = useState([]);
 
     const getUser = async () => {
-        let res = await fetch('https://jsonplaceholder.typicode.com/users/' + props.match.params.id);
+        let res = await fetch('https://jsonplaceholder.typicode.com/users/' + id);
         let users = await res.json();
 
         setUser(users);

@@ -12,6 +12,9 @@
     position: relative;
     height: 100%;
   }
+  .seeThrough{
+    background: rgba(0, 0, 255,0.3) !important;
+  }
   .c {
     position: relative;
     height: 750px;
