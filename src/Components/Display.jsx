@@ -16,7 +16,7 @@ const Display = () => {
 
   return (
     <section className="py-1">
-      <h1 className="seeThrough jumbotron text-center text-uppercase font-weight-bold shadow-lg" style={{color:"black", textShadow: "2px 2px 4px white"}}><ins>JSON fake User Catalog</ins></h1>
+      <h1 className="seeThrough jumbotron text-center text-uppercase font-weight-bold shadow-lg" style={{color:"white", textShadow: "2px 2px 4px black"}}><ins>JSON fake User Catalog</ins></h1>
       <div className="seeThrough">
         <div className="card-body shadow-lg">
           <ul className="list-group">
